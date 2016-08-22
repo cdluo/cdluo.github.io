@@ -30,9 +30,9 @@
 	height:20px;
   padding: 0;
   list-style: none;
-  font-size: 1em;
+  font-size: 1.0em;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color:#E3F8FF;
   /*color:white;*/
 }
