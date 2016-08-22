@@ -1,0 +1,44 @@
+/*Favorite Color Schemes from: https://designschool.canva.com/blog/website-color-schemes/
+  -16 
+  -29
+  -22
+  -46
+
+  Current: 16
+  	-main1: #0B3C5D; "Prussian Blue"
+  	-main2: #328CC1; "Sky Blue"
+  	-accent: #D9B310; "Gold Leaf"
+  	-text: #1D2731; "Ivory Black"
+
+  	-text2: #E3F8FF; "Sea Foam"
+*/
+
+#navbar{
+	position:fixed;
+	top:0px;
+	height:50px;
+	width:100%;
+	background-color:#0B3C5D;
+	text-align:center;
+}
+
+#navbar-content{
+	position:relative;
+	display:inline-block;
+	margin: 0 auto;
+	top:15px;
+	height:20px;
+  padding: 0;
+  list-style: none;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color:#E3F8FF;
+  /*color:white;*/
+}
+
+#navbar-content li{
+	float:left;
+	padding:0 20px;
+}
+
