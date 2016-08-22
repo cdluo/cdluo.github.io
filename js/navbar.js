@@ -1,3 +1,5 @@
+var selected = "navHome";
+
 function clearSelected(){
 	document.getElementById("navHome").classList.remove('selected');
 	document.getElementById("navAbout").classList.remove('selected');
