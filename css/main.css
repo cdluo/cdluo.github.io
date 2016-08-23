@@ -70,7 +70,7 @@ body{
 
 #navbar-content li{
 	float:left;
-	padding:0 18px;
+	padding:0 20px;
 }
 
 #phendrana{
@@ -120,6 +120,23 @@ body{
 	font-size:3.0em;
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#1D2731;
+}
+
+#chrisPic{
+	position:absolute;
+	top:80px;
+	left:0px;
+	width:33%;
+}
+
+#aboutMePara{
+	position:absolute;
+	top:75px;
+	right:0px;
+	width:65%;
+	font-size:0.5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:0;
 }
 
 #experience{
