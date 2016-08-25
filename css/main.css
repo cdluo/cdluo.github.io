@@ -61,6 +61,7 @@ body{
 	height:20px;
   padding: 0;
   list-style: none;
+  width:100%;
 
   font-size: 1.0em;
   font-weight: bold;
@@ -70,7 +71,8 @@ body{
 
 #navbar-content li{
 	float:left;
-	padding:0 20px;
+	padding:0;
+	/*border:1px solid black;*/
 }
 
 #phendrana{
@@ -139,7 +141,7 @@ body{
 	margin:0;
 }
 
-#experience{
+#projects{
 	position:relative;
 	text-align:center;
 	background-image:url("../images/phendranaBig.jpg");
