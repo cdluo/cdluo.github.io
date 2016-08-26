@@ -17,6 +17,8 @@
   	-main2: #88BBD6; "Fresh Water"
   	-accent: #CDCDCD; "Plaster"
   	-accent2: #E9E9E9; "Linen"
+
+  	-other: #C70025; "Sunrise"
 */
 
 body{
@@ -32,10 +34,12 @@ a:focus{
 }
 
 h1{
+	position:relative;
 	font-size: 1.5em;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
   color:#1D2731;
+  z-index:2;
 }
 
 .container-fluid{
@@ -92,7 +96,7 @@ h1{
 
 #home{
 	position:relative;
-	background-image:url("../images/phendranaBig.jpg");
+	background-image:url("../images/Hakone.png");
 	background-repeat: no-repeat;
   background-attachment: fixed;
 	height:700px;
