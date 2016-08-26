@@ -96,7 +96,7 @@ h1{
 
 #home{
 	position:relative;
-	background-image:url("../images/Hakone.png");
+	background-image:url("../images/HakoneTop.png");
 	background-repeat: no-repeat;
   background-attachment: fixed;
 	height:700px;
@@ -161,7 +161,7 @@ h1{
 #projects{
 	position:relative;
 	text-align:center;
-	background-image:url("../images/phendranaBig.jpg");
+	background-image:url("../images/HakoneBot.png");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	width:100%;
