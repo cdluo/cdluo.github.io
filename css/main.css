@@ -27,6 +27,17 @@ a:hover{
 	text-decoration:none;
 }
 
+a:focus{
+	text-decoration:none;
+}
+
+h1{
+	font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#1D2731;
+}
+
 .container-fluid{
 	padding:0;
 }
