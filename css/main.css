@@ -23,6 +23,10 @@ body{
 	overflow-x:hidden;
 }
 
+a:hover{
+	text-decoration:none;
+}
+
 .container-fluid{
 	padding:0;
 }
@@ -75,7 +79,8 @@ body{
 	/*border:1px solid black;*/
 }
 
-#phendrana{
+#home{
+	position:relative;
 	background-image:url("../images/phendranaBig.jpg");
 	background-repeat: no-repeat;
   background-attachment: fixed;
@@ -86,14 +91,27 @@ body{
 }
 
 #title{
-	position:relative;
-	top:42%;
-	display:block;
+	position:absolute;
+	top:35%;
+	width:100%;
 	text-align:center;
 
-	font-size: 5.0em;
+	font-size: 6.0em;
   font-family: 'Poiret One', sans-serif;
   color:#1D2731;
+}
+
+#socialButtons{
+	position:absolute;
+	display:inline-block;
+	left:50%;
+	margin-left: -130px;
+	top:64%;
+	height:50px;
+}
+
+.socialBtn{
+	margin:0 20px;
 }
 
 .filter{
@@ -109,7 +127,7 @@ body{
 	text-align:center;
 	background-image:url("../images/davidMattiaBG.jpg");
 
-	font-size:2.0em;
+	font-size:1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#1D2731;
 }
@@ -131,12 +149,11 @@ body{
 	background-image:url("../images/phendranaBig.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height:900px;
 	width:100%;
 	margin:0;
 	padding:0;
 
-	font-size:3.0em;
+	font-size:1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#1D2731;
 }
@@ -146,7 +163,7 @@ body{
 	text-align:center;
 	background-image:url("../images/davidMattiaBG.jpg");
 
-	font-size:3.0em;
+	font-size:1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#1D2731;
 }

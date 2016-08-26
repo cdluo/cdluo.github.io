@@ -6,21 +6,35 @@ var navRes = document.getElementById("navRes");
 var selected = "navHome";
 
 // Responsive Formatting //
-var width = document.documentElement.clientWidth;
+navResponsive();
 
-if(width < 450){
-	navHome.style.width = "23.5%";
-	navAbout.style.width = "23.5%";
-	navPro.style.width = "29.5%";
-	navRes.style.width = "23.5%";
-}else if(width < 800){
+$(window).resize(function(){
+	navResponsive();
+});
+
+function navResponsive(){
+	var width = document.documentElement.clientWidth;
+
+	if(width < 450){
+		navHome.style.width = "23.5%";
+		navAbout.style.width = "23.5%";
+		navPro.style.width = "29.5%";
+		navRes.style.width = "23.5%";
+	}else if(width < 800){
 		navHome.style.width = "24%";
-	navAbout.style.width = "24%";
-	navPro.style.width = "28%";
-	navRes.style.width = "24%";
+		navAbout.style.width = "24%";
+		navPro.style.width = "28%";
+		navRes.style.width = "24%";
+	}else{
+		navHome.style.width = "24.5%";
+		navAbout.style.width = "24.5%";
+		navPro.style.width = "26.5%";
+		navRes.style.width = "24.5%";
+	}
+
+	console.log("Width " + width + ": Navbar formatting done");
 }
 
-console.log("Width " + width + ": Navbar formatting done");
 ///////////////////////////
 
 function clearSelected(){
@@ -35,7 +49,7 @@ $(window).scroll(function (event) {
     console.log(scroll);
     var newSelected;
 
-    if(scroll >= 1800){
+    if(scroll >= $("#resume").offset().top-30){
     	newSelected = "navRes";
     }else if(scroll >= $("#projects").offset().top-30){
     	newSelected = "navPro"
