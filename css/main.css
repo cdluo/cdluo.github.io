@@ -35,11 +35,12 @@ a:focus{
 
 h1{
 	position:relative;
-	font-size: 1.5em;
+	font-size: 2.25em;
   font-weight: bold;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   color:#1D2731;
   z-index:2;
+  margin-bottom:15px;
 }
 
 .container-fluid{
@@ -82,9 +83,9 @@ h1{
   list-style: none;
   width:100%;
 
-  font-size: 1.0em;
+  font-size: 0.9em;
   font-weight: bold;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color:#E3F8FF;
 }
 
@@ -142,8 +143,8 @@ h1{
 	text-align:center;
 	background-image:url("../images/davidMattiaBG.jpg");
 
-	font-size:1.5em;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1.35em;
+	font-family: 'Open Sans', sans-serif;
 	color:#1D2731;
 }
 
@@ -161,16 +162,36 @@ h1{
 #projects{
 	position:relative;
 	text-align:center;
-	background-image:url("../images/HakoneBot.png");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-image:url("../images/davidMattiaBG.jpg");
 	width:100%;
 	margin:0;
 	padding:0;
 
-	font-size:1.5em;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1.35em;
+	font-family: 'Open Sans', sans-serif;
 	color:#1D2731;
+}
+
+#sugi{
+	position:absolute;
+	left:-10px;
+	bottom:0px;
+	z-index:0;
+	height:100%;
+}
+
+.projectPic{
+	height:100%;
+	width:100%;
+	margin-top:15px;
+	border-radius:10px;
+	z-index:1;
+}
+
+.projectPara{
+	margin-top:15px;
+	text-align:left;
+	z-index:1;
 }
 
 #resume{
@@ -179,7 +200,7 @@ h1{
 	background-image:url("../images/davidMattiaBG.jpg");
 
 	font-size:1.5em;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color:#1D2731;
 }
 
@@ -191,6 +212,6 @@ h1{
 	height:100px;
 
 	font-size:1.0em;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color:#E9E9E9;
 }
