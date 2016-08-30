@@ -49,7 +49,7 @@ $(window).scroll(function (event) {
     console.log(scroll);
     var newSelected;
 
-    if(scroll >= $("#resume").offset().top-30){
+    if((window.innerHeight + window.scrollY) >= document.body.offsetHeight){
     	newSelected = "navRes";
     }else if(scroll >= $("#projects").offset().top-30){
     	newSelected = "navPro"
