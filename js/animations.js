@@ -5,12 +5,15 @@ var resume = false;
 
 function checkAnim(){
 	var scroll = $(window).scrollTop();
+
+	// Checking sections in reverse order is needed to play the animations
+	// in the right order.
 	if((window.innerHeight + window.scrollY) >= document.body.offsetHeight){
 		if(resume == false){
 			resume = true;
-			document.getElementById("resume").classList.add('pulse');
+			document.getElementById("resumeHeader").classList.add('bounce');
 		}
-	}else if(scroll >= $("#projects").offset().top-$("#about").height()){
+	}else if(scroll >= $("#projects").offset().top-$("#about").height()-30){
 		if(projects == false){
 			projects = true;
 			document.getElementById("mapsRow").classList.add('fadeInLeft');
@@ -25,12 +28,12 @@ function checkAnim(){
 			document.getElementById("rubMalRow").classList.add('fadeInRight');
 			document.getElementById("rubMalRow").classList.remove('invisible');
 		}
-	}else if(scroll >= $("#about").offset().top-($("#home").height()/2)+30){
+	}else if(scroll >= $("#about").offset().top-($("#home").height()-30)){
 		console.log($("#home").height());
 				console.log("animating about");
 		if(about == false){
 			about = true;
-			document.getElementById("aboutRow").classList.add('fadeInLeft');
+			document.getElementById("aboutRow").classList.add('slideInUp');
 			document.getElementById("aboutRow").classList.remove('invisible');
 		}
 	}
