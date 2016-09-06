@@ -19,7 +19,7 @@
   	-accent2: #E9E9E9; "Linen"
 
 	My Colors
-	
+
   	-other: #C70025; "Sunrise"
   	-other: #228B22; "Forest"
   	-other: #784800; "Dirt"
@@ -41,7 +41,7 @@ h1{
 	position:relative;
 	font-size: 2.25em;
   font-weight: bold;
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Poiret One', cursive;
   color:#1D2731;
   z-index:2;
   margin-bottom:15px;
@@ -52,6 +52,7 @@ h2{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.35em;
 	color:#0B3C5D;
+	margin-top:15px;
 }
 
 .container-fluid{
@@ -123,7 +124,7 @@ h2{
 	text-align:center;
 
 	font-size: 6.0em;
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Poiret One', cursive;
   color:#1D2731;
 }
 
@@ -172,8 +173,8 @@ h2{
 #projects{
 	position:relative;
 	text-align:center;
-	background-image:url("../images/sugiBWNoBG.png"), url("../images/davidMattiaBG.jpg");
-	background-repeat: no-repeat, repeat;
+	background-image:url("../images/davidMattiaBG.jpg");
+	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size:contain;
 	width:100%;
@@ -204,7 +205,7 @@ h2{
 }
 
 .projectPara{
-	margin-top:15px;
+	margin-top:5px;
 	text-align:left;
 	z-index:1;
 }
@@ -224,7 +225,7 @@ h2{
 	text-align:center;
 	background-color:#0B3C5D;
 	opacity:0.85;
-	height:100px;
+	height:120px;
 
 	font-size:1.0em;
 	font-family: 'Open Sans', sans-serif;

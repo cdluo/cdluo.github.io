@@ -31,8 +31,6 @@ function navResponsive(){
 		navPro.style.width = "26.5%";
 		navRes.style.width = "24.5%";
 	}
-
-	console.log("Width " + width + ": Navbar formatting done");
 }
 
 ///////////////////////////
@@ -46,7 +44,6 @@ function clearSelected(){
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    console.log(scroll);
     var newSelected;
 
     if((window.innerHeight + window.scrollY) >= document.body.offsetHeight){
@@ -62,7 +59,7 @@ $(window).scroll(function (event) {
     if(newSelected != selected){
     	clearSelected();
     	document.getElementById(newSelected).classList.add('selected');
-    	selected=newSelected;
+    	selected = newSelected;
     }
 });
 
