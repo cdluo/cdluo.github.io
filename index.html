@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!--Google Fonts API -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -36,11 +37,11 @@
     <div id="home">
       <div class="row filter" style="background-color:#99D3DF; opacity:0.2"></div>
         <div id="title">
-          <p style="color:#1D2731; z-index:1">Chris Luo</p>
-          <p style="padding:0; margin:0; font-size:0.4em; z-index:1; color:#1D2731"> Brown University CS 2018</p>
+          <p style="color:#1D2731; z-index:1" class="animated fadeIn">Chris Luo</p>
+          <p style="padding:0; margin:0; font-size:0.4em; z-index:1; color:#1D2731" class="animated fadeIn"> Brown University CS 2018</p>
         </div>
 
-        <div id="socialButtons">
+        <div id="socialButtons" class="animated fadeIn">
           <a href="https://www.linkedin.com/in/christopher-luo-77530696">
             <i class="fa fa-linkedin fa-2x socialBtn"></i>
           </a>
@@ -61,8 +62,8 @@
       <div class="row filter" style="background-color:#99D3DF; opacity:0.25"></div>
       <div class="container">
         <h1> About </h1>
-        <div class="row">
-          <div class="col-sm-4">
+        <div class="row animated invisible" id="aboutRow">
+          <div class="col-sm-4 animated fadeIn">
             <img src="images/PP.jpg" id="chrisPic">
           </div>
           <div class="col-sm-8">
@@ -89,7 +90,7 @@
       <div class="container">
         <h1> Projects </h1>
 
-        <div class="row">
+        <div id="mapsRow" class="row animated invisible">
           <div class="col-sm-5">
             <img src="images/maps.png" class="projectPic" id="mapsImg">
           </div>
@@ -101,7 +102,7 @@
 
         <div class="row" style="height:20px"></div>
 
-        <div class="row">
+        <div id="agent32Row" class="row animated invisible">
           <div class="col-sm-5">
             <img src="images/agent32.png" class="projectPic" id="agent32Img">
           </div>
@@ -113,7 +114,7 @@
 
         <div class="row" style="height:20px"></div>
 
-        <div class="row">
+        <div id="TNWRow" class="row animated invisible">
           <div class="col-sm-5">
             <img src="images/TTNW.png" class="projectPic" id="TNWImg">
           </div>
@@ -125,7 +126,7 @@
 
         <div class="row" style="height:20px"></div>
 
-        <div class="row">
+        <div id="rubMalRow" class="row animated invisible">
           <div class="col-sm-5">
             <img src="images/rubberMallet.png" class="projectPic" id="rubMalImg">
           </div>
@@ -139,7 +140,7 @@
       </div>
     </div>
 
-    <div id="resume">
+    <div id="resume" class="animated">
       <div class="row filter" style="background-color:#88BBD6; opacity:0.3"></div>
       <div class="container">
         <h1> Resume </h1>
@@ -171,5 +172,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
 	</body>
 </html>

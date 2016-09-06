@@ -37,6 +37,10 @@ a:focus{
 	text-decoration:none;
 }
 
+.invisible{
+	visibility: none;
+}
+
 h1{
 	position:relative;
 	font-size: 2.25em;
