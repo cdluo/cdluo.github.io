@@ -24,7 +24,6 @@ function imageResponsive(){
 	var chris = document.getElementById("chrisPic");
 
 	if(width <= 991 && width >= 768){
-		console.log("making small...")
 		projImgBig = false;
 		maps.src = "images/mapsSmall.png";
 		agent32.src = "images/agent32Small.png";
@@ -32,7 +31,6 @@ function imageResponsive(){
 		rubMal.src = "images/rubberMalletSmall.png";
 		chris.src = "images/chrisRed.jpg"
 	}else if(projImgBig == false){
-		console.log("making big...")
 		projImgBig = true;
 		maps.src = "images/maps.png";
 		agent32.src = "images/agent32.png";
@@ -40,7 +38,6 @@ function imageResponsive(){
 		rubMal.src = "images/rubberMallet.png";
 		chris.src = "images/PP.jpg"
 	}
-	console.log(width  + " ProjectImgResponsive Done!");
 }
 
 function checkSugi(){

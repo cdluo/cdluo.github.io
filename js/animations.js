@@ -29,8 +29,6 @@ function checkAnim(){
 			document.getElementById("rubMalRow").classList.remove('invisible');
 		}
 	}else if(scroll >= $("#about").offset().top-($("#home").height()-30)){
-		console.log($("#home").height());
-				console.log("animating about");
 		if(about == false){
 			about = true;
 			document.getElementById("aboutRow").classList.add('slideInUp');
