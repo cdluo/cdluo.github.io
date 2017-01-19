@@ -65,11 +65,11 @@ a:focus{
 h1{
 	position:relative;
 	font-size: 2.25em;
-  font-weight: bold;
-  font-family: 'Poiret One', cursive;
-  color:#1D2731;
-  z-index:2;
-  margin-bottom:15px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	color:#1D2731;
+	z-index:2;
+	margin-bottom:15px;
 }
 
 h2{
@@ -116,14 +116,13 @@ h2{
 	margin: 0 auto;
 	top:15px;
 	height:20px;
-  padding: 0;
-  list-style: none;
-  width:100%;
-
-  font-size: 0.9em;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  color:#E3F8FF;
+	padding: 0;
+	list-style: none;
+	width:100%;
+	font-size: 0.9em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color:#E3F8FF;
 }
 
 #navbar-content li{
@@ -135,7 +134,7 @@ h2{
 	position:relative;
 	background-image:url("../images/HakoneTop.png");
 	background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-attachment: fixed;
 	height:700px;
 	width:100%;
 	padding:0;
@@ -148,8 +147,8 @@ h2{
 	width:100%;
 	text-align:center;
 	font-size: 6.0em;
-  font-family: 'Poiret One', cursive;
-  color:#1D2731;
+	font-family: 'Poiret One', cursive;
+	color:#1D2731;
 }
 
 #socialButtons{
