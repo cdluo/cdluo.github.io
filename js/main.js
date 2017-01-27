@@ -4,6 +4,13 @@ function titleResponsive(){
 	var width = document.documentElement.clientWidth;
 	var title = document.getElementById("title");
 	var socialButtons = document.getElementById("socialButtons")
+	var home = document.getElementById("home");
+
+	if(width <= 800){
+		home.style.backgroundSize = "auto";
+	}else{
+		home.style.backgroundSize = "100% auto";
+	}
 
 	if(width < 400){
 		title.style.fontSize = "4.5em";
@@ -19,7 +26,8 @@ function imageResponsive(){
 	var maps = document.getElementById("mapsImg");
 	var agent32 = document.getElementById("agent32Img");
 	var TNW = document.getElementById("TNWImg");
-	var rubMal = document.getElementById("rubMalImg");
+	var bina = document.getElementById("binaImg");
+	var rubMal = document.getElementById("rubMalImg")
 
 	var chris = document.getElementById("chrisPic");
 
@@ -28,30 +36,33 @@ function imageResponsive(){
 		maps.src = "images/mapsSmall.png";
 		agent32.src = "images/agent32Small.png";
 		TNW.src = "images/TTNWSmall.png";
-		rubMal.src = "images/rubberMalletSmall.png";
+		bina.src = "images/ProfessorBinaSmall.png";
 		chris.src = "images/chrisRed.jpg"
+		rubMal.src = "images/rubberMalletSmall.png";
 	}else if(projImgBig == false){
 		projImgBig = true;
 		maps.src = "images/maps.png";
 		agent32.src = "images/agent32.png";
 		TNW.src = "images/TTNW.png";
-		rubMal.src = "images/rubberMallet.png";
+		bina.src = "images/ProfessorBina.png";
 		chris.src = "images/PP.jpg"
+		rubMal.src = "images/rubberMallet.png";
 	}
 }
 
-function checkSugi(){
-	var width = document.documentElement.clientWidth;
-	var projects = document.getElementById("projects");
+//For if you want to add the sugi tree back into the background.
+// function checkSugi(){
+// 	var width = document.documentElement.clientWidth;
+// 	var projects = document.getElementById("projects");
 
-	if(width > 770){
-		projects.style.backgroundImage = "url(\"images/sugiBWNoBG.png\"), url(\"images/davidMattiaBG.jpg\")";
-		projects.style.backgroundRepeat = "no-repeat, repeat";
-	}else{
-		projects.style.backgroundImage = "url(\"images/davidMattiaBG.jpg\")";
-		projects.style.backgroundRepeat = "repeat";
-	}
-}
+// 	if(width > 770){
+// 		projects.style.backgroundImage = "url(\"images/sugiBWNoBG.png\"), url(\"images/davidMattiaBG.jpg\")";
+// 		projects.style.backgroundRepeat = "no-repeat, repeat";
+// 	}else{
+// 		projects.style.backgroundImage = "url(\"images/davidMattiaBG.jpg\")";
+// 		projects.style.backgroundRepeat = "repeat";
+// 	}
+// }
 
 titleResponsive();
 imageResponsive();

@@ -133,7 +133,7 @@ h2{
 #home{
 	position:relative;
 	background-image:url("../images/HakoneTop.png");
-	background-repeat: no-repeat;
+	background-size:100% auto;
 	background-attachment: fixed;
 	height:700px;
 	width:100%;

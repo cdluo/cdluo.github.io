@@ -16,17 +16,21 @@ function checkAnim(){
 	}else if(scroll >= $("#projects").offset().top-$("#about").height()-30){
 		if(projects == false){
 			projects = true;
-			document.getElementById("mapsRow").classList.add('fadeInRight');
+
+			document.getElementById("binaRow").classList.add('fadeInRight');
+			document.getElementById("binaRow").classList.remove('invisible');
+
+			document.getElementById("mapsRow").classList.add('fadeInLeft');
 			document.getElementById("mapsRow").classList.remove('invisible');
 
-			document.getElementById("agent32Row").classList.add('fadeInLeft');
-			document.getElementById("agent32Row").classList.remove('invisible');
-
-			document.getElementById("TNWRow").classList.add('fadeInLeft');
+			document.getElementById("TNWRow").classList.add('fadeInRight');
 			document.getElementById("TNWRow").classList.remove('invisible');
 
-			document.getElementById("rubMalRow").classList.add('fadeInRight');
+			document.getElementById("rubMalRow").classList.add('fadeInLeft');
 			document.getElementById("rubMalRow").classList.remove('invisible');
+
+			document.getElementById("agent32Row").classList.add('fadeInRight');
+			document.getElementById("agent32Row").classList.remove('invisible');
 		}
 	}else if(scroll >= $("#about").offset().top-($("#home").height()-30)){
 		if(about == false){
